@@ -1,6 +1,6 @@
 # 🚰 Touchless Water Tap System Using FPGA
 
-![Touchless Water Tap Block Diagram](images/) <!-- Replace with actual image path -->
+![Touchless Water Tap Block Diagram](waveforms_and_schematic_images/BLOCK_DIAGRAM_TOUCHLESS_WATER_TAP.jpeg) <!-- Replace with actual image path -->
 
 ## Overview
 
