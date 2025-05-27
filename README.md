@@ -1,6 +1,6 @@
 # 🚰 Touchless Water Tap System Using FPGA
 
-![Touchless Water Tap Block Diagram](images/block_diagram.png) <!-- Replace with actual image path -->
+![Touchless Water Tap Block Diagram](images/) <!-- Replace with actual image path -->
 
 ## Overview
 
@@ -16,7 +16,7 @@ This design is ideal for smart public utilities, bathrooms, hospitals, or anywhe
 - ⏱️ **1-second detection delay** to avoid false triggering  
 - 🕒 **2-second hold time** after sensor deactivation for smoother water flow  
 - ⚙️ **FPGA-controlled pump activation** using Verilog  
-- 🔌 **Centrifugal Pump** controlled via Relay or MOSFET driver  
+- 🔌 **Centrifugal Pump** controlled via Relay  
 - 🔄 **Debounced and glitch-free control logic**  
 - 🔐 **Protects the pump** from rapid on/off switching  
 
@@ -36,22 +36,20 @@ This design is ideal for smart public utilities, bathrooms, hospitals, or anywhe
 
 - IR Proximity Sensor Module  
 - Centrifugal Water Pump  
-- Relay Module or MOSFET-based driver circuit  
+- Relay Module   
 - FPGA Development Board (e.g., Xilinx Spartan-6 / Intel Cyclone IV)  
 - 5V/12V Power Supply  
 - Verilog HDL for logic design  
-- Simulation tools like **ModelSim**, **Vivado**, or **Quartus**
+- Simulation tools like **Vivado**
 
 ---
 
 ## 🛠️ Tools & Technologies
 
 - Verilog HDL  
-- Xilinx Vivado / Intel Quartus (for synthesis and programming)  
-- ModelSim (for simulation)  
+- Xilinx Vivado  
 - FPGA Board  
 - Basic Digital Design principles  
-- Optional: Oscilloscope / Logic Analyzer for timing analysis
 
 ---
 
@@ -71,5 +69,23 @@ This design is ideal for smart public utilities, bathrooms, hospitals, or anywhe
 
 ---
 
-## 📁 Repository Structure
+---
+
+## 🤝 Contributing
+
+Pull requests are welcome! For major changes, please open an issue first to discuss what you'd like to change.
+
+---
+
+## 📜 License
+
+This project is open-source and available under the [MIT License](LICENSE).
+
+---
+
+## 🙌 Acknowledgements
+
+Special thanks to SSIT Mentor TEJESH Sir and peers who provided feedback and support throughout the project.
+
+
 
