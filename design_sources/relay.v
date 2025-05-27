@@ -3,8 +3,8 @@
 
 module RELAY_MODULE #(
     parameter CLK_FREQ = 50_000_000,        // Clock frequency in Hz
-    parameter ON_DURATION_SEC = 2,          // Relay ON time after IR = 0
-    parameter DEBOUNCE_MS = 1000              // Debounce duration in milliseconds
+    parameter ON_DURATION_SEC = 2, //for simulation waveforms we put it for 0.0000001 (100ns)          // Relay ON time after IR = 0
+    parameter DEBOUNCE_MS = 1000    //for simualation we put it for 0,0001 (100ns)          // Debounce duration in milliseconds
 )(
     input  wire clk,
     input  wire reset,
